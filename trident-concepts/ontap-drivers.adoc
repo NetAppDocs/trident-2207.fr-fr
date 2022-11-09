@@ -1,0 +1,98 @@
+---
+sidebar: sidebar 
+permalink: trident-concepts/ontap-drivers.html 
+keywords: trident backend, AFF, FAS, ONTAP Select, Cloud, Amazon FSx for NetApp ONTAP, drivers, ONTAP drivers 
+summary: Découvrez comment créer et utiliser un back-end Element avec votre installation Trident. 
+---
+= Pilotes ONTAP
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+Astra Trident propose cinq pilotes de stockage ONTAP uniques pour la communication avec les clusters ONTAP. Découvrez comment chaque pilote gère la création de volumes, le contrôle d'accès et leurs fonctionnalités.
+
+[cols="5"]
+|===
+| Conducteur | Protocole | Mode Volume | Modes d'accès pris en charge | Systèmes de fichiers pris en charge 
+
+
+| `ontap-nas`  a| 
+NFS
+ a| 
+Système de fichiers
+ a| 
+RWO,RWX,ROX
+ a| 
+« », nfs
+
+
+
+| `ontap-nas-economy`  a| 
+NFS
+ a| 
+Système de fichiers
+ a| 
+RWO,RWX,ROX
+ a| 
+« », nfs
+
+
+
+| `ontap-nas-flexgroup`  a| 
+NFS
+ a| 
+Système de fichiers
+ a| 
+RWO,RWX,ROX
+ a| 
+« », nfs
+
+
+
+| `ontap-san`  a| 
+ISCSI
+ a| 
+Bloc
+ a| 
+RWO,ROX,RWX
+ a| 
+Aucun système de fichiers. Périphérique de bloc brut
+
+
+
+| `ontap-san`  a| 
+ISCSI
+ a| 
+Système de fichiers
+ a| 
+RWO,ROX
+ a| 
+`xfs`, `ext3`, `ext4`
+
+
+
+| `ontap-san-economy`  a| 
+ISCSI
+ a| 
+Bloc
+ a| 
+RWO,ROX,RWX
+ a| 
+Aucun système de fichiers. Périphérique de bloc brut
+
+
+
+| `ontap-san-economy`  a| 
+ISCSI
+ a| 
+Système de fichiers
+ a| 
+RWO,ROX
+ a| 
+`xfs`, `ext3`, `ext4`
+
+|===
+
+NOTE: Les systèmes ONTAP back-end peuvent être authentifiés en utilisant des identifiants de connexion pour un rôle de sécurité (nom d'utilisateur/mot de passe) ou en utilisant la clé privée et le certificat installé sur le cluster ONTAP. Vous pouvez mettre à jour les systèmes back-end existants pour passer d'un mode d'authentification à l'autre avec `tridentctl update backend`.
