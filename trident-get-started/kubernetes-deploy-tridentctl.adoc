@@ -19,6 +19,7 @@ TIP: Si vous ne vous êtes pas déjà familiarisé avec le link:../trident-conce
 
 TIP: Pour personnaliser votre déploiement, voir link:kubernetes-customize-deploy-tridentctl.html["ici"^].
 
+.Ce dont vous avez besoin
 Pour déployer Astra Trident, les prérequis suivants doivent être respectés :
 
 * Vous disposez de privilèges complets pour un cluster Kubernetes pris en charge.

@@ -16,6 +16,7 @@ Découvrez comment configurer NetApp Cloud Volumes Service (CVS) pour Google Clo
 
 NOTE: NetApp Cloud Volumes Service pour Google Cloud ne prend pas en charge les volumes CVS-Performance de moins de 100 Gio, ou les volumes CVS de moins de 300 Gio. Astra Trident crée automatiquement des volumes de taille minimale si le volume demandé est inférieur à la taille minimale.
 
+.Ce dont vous avez besoin
 Pour configurer et utiliser le https://cloud.netapp.com/cloud-volumes-service-for-gcp?utm_source=NetAppTrident_ReadTheDocs&utm_campaign=Trident["Cloud Volumes Service pour Google Cloud"^] back-end, vous avez besoin des éléments suivants :
 
 * Un compte Google Cloud configuré avec NetApp CVS

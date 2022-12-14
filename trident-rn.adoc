@@ -18,7 +18,7 @@ WARNING: Le `tridentctl` Binaire pour Linux fourni dans le fichier zip du progra
 
 
 
-== Nouveautés en 22.07
+== Nouveautés de la version 22.07
 
 
 

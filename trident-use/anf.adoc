@@ -16,6 +16,7 @@ Découvrez comment configurer Azure NetApp Files (ANF) en tant que backend pour 
 
 NOTE: Le service Azure NetApp Files ne prend pas en charge des volumes inférieurs à 100 Go. Astra Trident crée automatiquement des volumes de 100 Go en cas de demande d'un volume plus petit.
 
+.Ce dont vous avez besoin
 Pour configurer et utiliser un https://azure.microsoft.com/en-us/services/netapp/["Azure NetApp Files"^] back-end, vous avez besoin des éléments suivants :
 
 * `subscriptionID` Depuis un abonnement Azure avec Azure NetApp Files activé.
@@ -28,6 +29,7 @@ TIP: Pour en savoir plus sur les rôles intégrés dans Azure, consultez la http
 * Si vous utilisez Azure NetApp Files pour la première fois ou à un nouvel emplacement, une certaine configuration initiale est requise. Voir la https://docs.microsoft.com/en-us/azure/azure-netapp-files/azure-netapp-files-quickstart-set-up-account-create-volumes["guide de démarrage rapide"^].
 
 
+.Description de la tâche
 En fonction de la configuration back-end (sous-réseau, réseau virtuel, niveau de service et emplacement), Trident crée des volumes ANF dans des pools de capacité disponibles à l'emplacement demandé et qui correspondent au niveau de service et au sous-réseau requis.
 
 
