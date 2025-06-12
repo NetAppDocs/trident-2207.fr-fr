@@ -1043,10 +1043,6 @@
   <block id="fdd380631ba8063e7b8f842282a01e40" category="list-text"><block ref="fdd380631ba8063e7b8f842282a01e40" category="inline-link-rx"></block></block>
   <block id="4af8991c21dff2f779496b8350d1124b" category="inline-link">Astra Trident 22.01</block>
   <block id="7669b0b69333e81c7c208aea3d1a3c6f" category="list-text"><block ref="7669b0b69333e81c7c208aea3d1a3c6f" category="inline-link-rx"></block></block>
-  <block id="cce172403b73af5c2a4e93081affcc7f" category="inline-link">Astra Trident 21.10</block>
-  <block id="606b9e83fb467a43b3065d4fd5037094" category="list-text"><block ref="606b9e83fb467a43b3065d4fd5037094" category="inline-link-rx"></block></block>
-  <block id="a93e9e44b7a375a4236260f5ff2b251e" category="inline-link">Astra Trident 21.07</block>
-  <block id="3830d427e146a8a64454dc373d9b1502" category="list-text"><block ref="3830d427e146a8a64454dc373d9b1502" category="inline-link-rx"></block></block>
   <block id="c217b0ac2dd5504f79ba78b220a9c358" category="summary">NetApp prend en charge Trident de plusieurs façons. De nombreuses options d'auto-assistance gratuites sont disponibles 24 h/24 et 7 j/7, par exemple un canal de discorde.</block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="doc">Assistance</block>
   <block id="14340f3a4eb25a54f8446036d807d7c8" category="paragraph">Astra Trident est un projet NetApp officiellement pris en charge. Vous pouvez contacter NetApp à l'aide de n'importe quel mécanisme standard et bénéficier d'un support haute performance adapté à vos besoins.</block>
@@ -1179,7 +1175,6 @@
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">Vous trouverez une liste actuelle des brevets appartenant à NetApp à l'adresse suivante :</block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Politique de confidentialité</block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Source ouverte</block>
-  <block id="0172b29a9f5d94dc62ee592a98183f3b" category="paragraph">Vous pouvez consulter les informations de copyright et licences tierces utilisées dans le logiciel NetApp pour Astra Trident dans le fichier d'avis correspondant à chaque version, à l'adresse<block ref="4a3c8c5a408c6db1c44c04391a8a0a2f" category="inline-link-rx"></block>.</block>
   <block id="b9966b5f76510c4c81d397b732dc0ced" category="summary">Lancez-vous en examinant les systèmes front-end, les systèmes back-end et la configuration hôte pris en charge.</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="doc">De formation</block>
   <block id="0582c93c9857a8b6d0380be79128eefc" category="admonition">Pour en savoir plus sur les ports qu'utilise Astra Trident, consultez la page <block ref="c6b87a878d50568ac1e654ad3964af7b" category="inline-link-macro-rx"></block>.</block>
@@ -3274,4 +3269,6 @@
   <block id="f8b52d963f246a75dc6c8b78c954a4fd" category="list-text"><block ref="f8b52d963f246a75dc6c8b78c954a4fd" category="inline-link-rx"></block></block>
   <block id="b6780b7b2561935ff862fe7126cde751" category="list-text"><block ref="b6780b7b2561935ff862fe7126cde751" category="inline-link-rx"></block></block>
   <block id="b9a641d903e611a87a5e68ac7fdb0b84" category="list-text">Le AutoSupport Trident ne collecte pas et ne transmet pas d'informations à caractère personnel (PII) ou de données personnelles. Il est fourni avec un<block ref="173a360b412944768c2ab13e6c8fd1c7" category="inline-link-rx"></block> qui ne s'applique pas à l'image du conteneur Trident. Pour en savoir plus sur l'engagement de NetApp en faveur de la sécurité et de la confiance des données<block ref="d3cc55401bc8303e01c6b0c43ba0733f" category="inline-link-rx"></block>.</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Les fichiers de notification fournissent des informations sur les droits d'auteur et les licences de tiers utilisés dans le logiciel NetApp.</block>
+  <block id="b2c5fe74ce5fe4b418e2c888873cdad2" category="paragraph"><block ref="6cd62921a12aa45126e024256eb76da4" category="inline-link-rx"></block>.</block>
 </blocks>
